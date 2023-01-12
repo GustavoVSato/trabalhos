@@ -5,6 +5,7 @@ int main(void)
     int x;
     int y;
     int soma=0;
+    printf("%s","Digite o intervalo");
     scanf("%d",&x);
     scanf("%d",&y);
     while(x<=y){

@@ -3,6 +3,7 @@ int divisores(int x);
 int feliz(int x);
 int main(void){
     int x;
+    printf("%s","Digite um numero inteiro positivo");
     scanf("%d",&x);
     int i=x;
     while(i>=0){

@@ -7,6 +7,7 @@ int main(void){
     float ya;
     float xb;
     float yb;
+    printf("%s","Digite as coordenadas dos pontos");
     scanf("%f",&xa);
     scanf("%f",&ya);
     scanf("%f",&xb);

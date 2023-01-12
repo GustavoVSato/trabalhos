@@ -2,6 +2,7 @@
 
 int main(void){
     int x;
+    printf("%s","Digite um inteiro positivo");
     scanf("%d",&x);
     int soma=x;
     while(x!=1){
