@@ -1,7 +1,7 @@
 #include <stdio.h> 
 int main(void){
     int x;
-    printf("%s","Digite um inteiro");
+    printf("Digite um inteiro");
     scanf("%d",&x);
     int y=0;
     int soma=0;

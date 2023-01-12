@@ -3,9 +3,11 @@
 int main()
 {
     int n;
+    printf("Digite o numero de elementos");
     scanf("%d",&n);
     int num[n];
     int i;
+    printf("Digite a sequencia");
     for(i=0;i<n;i++){
         int v;
         scanf("%d",&v);

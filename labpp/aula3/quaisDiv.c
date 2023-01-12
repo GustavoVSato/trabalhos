@@ -2,9 +2,11 @@
 int main(void)
 {
     int y;
+    printf("Digite o numero de elementos");
     scanf("%d",&y);
     int num[y];
     int i;
+    printf("Digite a sequencia");
     for(i=0;i<y;i++){
         int v;
         scanf("%d",&v);
@@ -12,6 +14,7 @@ int main(void)
         
     }
     int x;
+    printf("Digite a referencia");
     scanf("%d",&x);
     for(i=0;i<y;i++){
         printf("%d",num[i]);

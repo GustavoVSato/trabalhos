@@ -7,7 +7,7 @@ int main()
     int j=1;
     int k=0;
     int l=0;
-    printf("%s","escreva a posicao do termo desejado");
+    printf("escreva a posicao do termo desejado");
     scanf("%d",&n);
     printf("%d %s",i,",");
     while(k<n-1){

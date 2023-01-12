@@ -3,7 +3,7 @@
 int main(void){
     int x;
     int y;
-    printf("%s","Digite 2 numeros do intervalo");
+    printf("Digite 2 numeros do intervalo");
     scanf("%d",&x);
     scanf("%d",&y);
     int i=x+1;

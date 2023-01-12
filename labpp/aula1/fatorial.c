@@ -1,7 +1,7 @@
 #include <stdio.h>
 int main(void){
     int x;
-    printf("%s","digite um inteiro");
+    printf("digite um inteiro");
     scanf("%d",&x);
     int y=1;
     int fatorial=1;

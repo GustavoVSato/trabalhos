@@ -4,10 +4,12 @@
 int main()
 {
     int x;
+    printf("Digite o numero de elementos");
     scanf("%d",&x);
     int i;
     double vetor[x];
     double vetor2[x-1];
+    printf("Digite os numeros");
     for(i=0;i<x;i++){
         double v;
         scanf("%lf",&v);

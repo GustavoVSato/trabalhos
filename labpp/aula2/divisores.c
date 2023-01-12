@@ -2,7 +2,7 @@
 
 int main(void){
     int x;
-    printf("%s","Digite um inteiro positivo");
+    printf("Digite um inteiro positivo");
     scanf("%d",&x);
     int i=2;
     printf("%s","1");

@@ -1,7 +1,7 @@
 #include <stdio.h>
 int main(void){
     int w,h;
-    printf("%s","digite seu peso e altura");
+    printf("digite seu peso e altura");
     scanf("%d %f",&w,&h);
     float IMC;
     IMC= w/h/h;

@@ -3,7 +3,7 @@
 int main()
 {
     int n;
-    printf("%s","Digite um inteiro");
+    printf("Digite um inteiro");
     scanf("%d",&n);
     int i=1;
     int soma=0;

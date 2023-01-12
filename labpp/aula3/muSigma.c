@@ -3,11 +3,13 @@
 int main(void)
 {
     int x;
+    printf("Digite o numero de elementos");
     scanf("%d",&x);
     float media;
     float desvio;
     int i;
     float num[x];
+    printf("Digite os numeros");
     for(i=0;i<x;i++){
         float v;
         scanf("%f",&v);
