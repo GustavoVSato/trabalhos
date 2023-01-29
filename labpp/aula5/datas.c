@@ -8,6 +8,7 @@ dat;
 
 int main(void){
     dat data;
+    printf("digite a data");
     scanf("%d/%d/%d", &data.dia, &data.mes, &data.ano);
     if(data.mes==1){
         printf("%02d.%02d.%d %02d-%02d-%d %02d/%02d/%d %02dJAN%d",data.dia,data.mes,data.ano,data.dia,data.mes,data.ano,data.dia,data.mes,data.ano%1000,data.dia,data.ano);

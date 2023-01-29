@@ -3,6 +3,7 @@
 int fib(int x);
 int main(void){
     int x;
+    printf("Informe o indice da sequencia");
     scanf("%d", &x);
     printf("%d",fib(x));
     return 0;

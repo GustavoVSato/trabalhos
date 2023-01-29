@@ -4,6 +4,7 @@
 double S(int x);
 int main(void){
     int x;
+    printf("Escreva o limite superior da serie");
     scanf("%d",&x);
     printf("%lf",S(x));
     return 0;

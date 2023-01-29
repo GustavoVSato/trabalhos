@@ -8,6 +8,7 @@ altura;
 int co(int x);
 int main(void){
     altura alt;
+    printf("Escreva a altura");
     scanf("%d.%d",&alt.m,&alt.cm);
     alt.cm=co(alt.cm);
     printf("Altura %dm%d",alt.m,alt.cm);
